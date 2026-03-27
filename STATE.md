@@ -1,11 +1,9 @@
 # Estado Atual do Projeto (UVP)
 
-**Status:** Inicialização (GSD Phase 1 - T3)
-**Objetivo:** Construir o Backend completo e seguro.
-**Próximo Passo:** Configurar Migrations do Banco de Dados para a tabela tracks.
+**Status:** Setup Concluído (GSD Phase 2 - T4)
+**Objetivo:** Implementar serviços de mídia (Parsers e Streamers).
+**Próximo Passo:** Implementar Regex Parser para URLs do YouTube.
 
 ## Tarefas Pendentes:
-- [x] Criar enum SourceType (YOUTUBE, LOCAL, RSS).
-- [x] Criar entidade Track (JPA) em domain.model.
-- [ ] Criar script V1__Create_Track_Table.sql no diretório do Flyway.
-- [ ] Subir App e testar persistência automática do BD.
+- [ ] Criar YouTube URL Regex Parser responsável por extrair ID dos links e testar sua proteção contra injeções.
+- [ ] (Posterior T5) Implementar Byte-Range Streamer para arquivos locais.
