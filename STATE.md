@@ -1,9 +1,11 @@
 # Estado Atual do Projeto (UVP)
 
-**Status:** Inicialização (GSD Phase 1 - T1)
+**Status:** Inicialização (GSD Phase 1 - T2)
 **Objetivo:** Construir o Backend completo e seguro.
-**Próximo Passo:** Gerar o `pom.xml` e a estrutura de pastas hexagonal.
+**Próximo Passo:** Implementar Entidade Track com metadados avançados, UUID e enums.
 
 ## Tarefas Pendentes:
-- [ ] Criar estrutura de pacotes (domain, application, infrastructure).
-- [ ] Configurar application.yml e Docker Compose para Postgres.
+- [x] Criar estrutura de pacotes (domain, application, infrastructure).
+- [x] Configurar application.yml e Docker Compose para Postgres.
+- [ ] Criar enum SourceType (YOUTUBE, LOCAL, RSS).
+- [ ] Criar entidade Track (JPA) em domain.model.
